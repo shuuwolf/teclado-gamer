@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 aula#1</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Aula 1 do curso sobre css3"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="sair" class="teclado">
+		<div onclick="myFunction()" class="esc">Esc</div>
+		<div class="F space">F1</div>
+		<div class="F">F2</div>
+		<div class="F">F3</div>
+		<div class="F">F4</div>
+		<div class="F space">F5</div>
+		<div class="F">F6</div>
+		<div class="F">F7</div>
+		<div class="F">F8</div>
+		<div class="F space">F9</div>
+		<div class="F">F10</div>
+		<div class="F">F11</div>
+		<div class="F">F12</div>
+
+		<div class="DEL">
+			<div class="Print space">PrtSc</div>
+			<div class="Print space">Ins</div>
+			<div class="Print space">Del</div>
+		</div><!--DEL-->	
+		<div class="DEL">	
+			<div class="Print">ScrLk</div>
+			<div class="Print">Home</div>
+			<div class="Print">End</div>
+		</div><!--DEL-->
+		<div class="DEL">
+			<div class="Print">Pause</div>
+			<div class="Print">PgUp</div>
+			<div class="Print">PgDn</div>	
+		</div><!--DEL-->
+
+		<div class="light">
+			<div style="margin-left: 40px" class="luz"></div>
+			<div style="margin-left: 40px;margin-top: 25px;" class="numerico">Num</div>
+			<div style="margin-left: 40px" class="numerico">7</div>
+			<div style="margin-left: 40px" class="numerico">4</div>
+			<div style="margin-left: 40px" class="numerico">1</div>
+			<div style="margin-left: 40px;" class="numerico space">0</div>
+		</div><!--light-->	
+		<div class="light">
+			<div class="luz"></div>
+			<div style="margin-top: 25px;" class="numerico">/</div>
+			<div class="numerico">8</div>
+			<div class="numerico">5</div>
+			<div class="numerico">2</div>
+			<div class="numerico">Text</div>
+		</div><!--light-->	
+		<div class="light">
+			<div class="luz"></div>
+			<div style="margin-top: 25px;" class="numerico">*</div>
+			<div class="numerico">9</div>
+			<div class="numerico">6</div>
+			<div class="numerico">3</div>
+			<div class="numerico">,</div>
+		</div><!--light-->	
+		<div class="light">
+			<div class="luz"></div>
+			<div style="margin-top: 25px;" class="numerico">-</div>
+			<div class="numerico">+</div>
+			<div class="numerico">.</div>
+			<div style="height: 65px" class="numerico">Enter</div>
+		</div><!--light-->	
+
+		<div class="main">
+			<div class="N">'  "</div>
+			<div class="N">1  !</div>
+			<div class="N">2  @</div>
+			<div class="N">3  #</div>
+			<div class="N">4  $</div>
+			<div class="N">5  %</div>
+			<div class="N">6  ¨</div>
+			<div class="N">7  &</div>
+			<div class="N">8  *</div>
+			<div class="N">9  (</div>
+			<div class="N">0  )</div>
+			<div class="N">-  _</div>
+			<div class="N">=  +</div>
+			<div style="width: 50px;" class="N"><==</div>
+		</div><!--main-->
+		<div class="main2">
+			<div class="N width">Tab</div>
+			<div class="N">Q</div>
+			<div class="N">W</div>
+			<div class="N">E</div>
+			<div class="N">R</div>
+			<div class="N">T</div>
+			<div class="N">Y</div>
+			<div class="N">U</div>
+			<div class="N">I</div>
+			<div class="N">O</div>
+			<div class="N">P</div>
+			<div class="N">´ `</div>
+			<div class="N">[{</div>
+			<div style="width: 40px;height: 63px;font-size: 11px;" class="N"><br><b>Enter</b></div>
+		</div><!--main2-->
+		<div class="main3">
+			<div style="font-size: 8px;" class="N width">CapsSlk</div>
+			<div class="N">A</div>
+			<div class="N">S</div>
+			<div class="N">D</div>
+			<div class="N">F</div>
+			<div class="N">G</div>
+			<div class="N">H</div>
+			<div class="N">J</div>
+			<div class="N">K</div>
+			<div class="N">L</div>
+			<div class="N">Ç</div>
+			<div class="N">~ ^</div>
+			<div class="N">] }</div>
+		</div><!--main3-->
+		<div class="main4">
+			<div class="N width2">Shift</div>
+			<div class="N">\ |</div>
+			<div class="N">Z</div>
+			<div class="N">X</div>
+			<div class="N">C</div>
+			<div class="N">V</div>
+			<div class="N">B</div>
+			<div class="N">N</div>
+			<div class="N">M</div>
+			<div class="N">, <</div>
+			<div class="N">. ></div>
+			<div class="N">; :</div>
+			<div class="N">/ ?</div>
+			<div style="width: 45px;" class="N">Shift</div>
+			<div style="margin-left: 53px" class="N up">↑</div>
+		</div><!--main4-->
+		<div class="main5">
+			<div class="N g">Ctrl</div>
+			<div class="N g"><img src="css/windows.png" onmouseover="src='css/windows-hover.png'" onmouseout="src='css/windows.png'"></div>
+			<div class="N g">Alt</div>
+			<div class="N width3">SPACE</div>
+			<div class="N g">Fn</div>
+			<div class="N g">AltGr</div>
+			<div class="N g">Config.</div>
+			<div class="N g">Ctrl</div>
+			<div style="margin-left: 20px" class="N up arrow-space">←</div>
+			<div class="N up">↓</div>
+			<div class="N up">→</div>
+		</div><!--main5-->
+	</div><!--teclado-->
+	<script type="text/javascript">
+		function myFunction()
+		{
+    		$("#sair").addClass('hide');
+		}
+	</script>
+	
+</body>
+</html>
